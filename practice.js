@@ -73,7 +73,7 @@ var backPack ={
 
 };
 var item="firstPocket";
-backPack["item"]="chapstick";
+backPack[item]="chapstick";
 
 backPack.color="black";
 
@@ -85,7 +85,7 @@ backPack.color="black";
 
 //Code here
 alert(backPack);
-console.log(backPack);
+
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -94,7 +94,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
-
+console.log(backPack);
 
 
 ////////// PROBLEM 4 //////////
@@ -117,7 +117,8 @@ var user2 = {
 */
 
 //Code Here
-
+user2.name="Tyler S. McGinnis";
+user2.email="tyler.mcginnis@devmounta.in";
 
 
 ////////// EXTRA PRACTICE PROBLEMS BELOW //////////
@@ -129,7 +130,7 @@ var user2 = {
 */
 
 //Code Here
-
+var methodCollection={};
 
 
 /*
@@ -138,7 +139,9 @@ var user2 = {
 */
 
 //Code Here
-
+function alertHello() {alert("hello")} ;
+function logHello() {console.log("hello")};
+methodCollection={alertHello,logHello}
 
 
 /*
@@ -146,7 +149,8 @@ var user2 = {
 */
 
 //Code Here
-
+methodCollection.alertHello();
+methodCollection.logHello();
 
 
 ////////// PROBLEM 6 //////////
@@ -157,7 +161,9 @@ var user2 = {
 */
 
 //Code Here
-
+function makePerson(name, birthday, ssn) {
+  return obj={name,birthday,ssn}
+};
 
 
 ////////// PROBLEM 7 //////////
@@ -168,5 +174,7 @@ var user2 = {
 */
 
 //Code Here
-
+function makeCard(cardNumber, expiraionDate, securityCode) {
+    return card={cardNumber, expiraionDate, securityCode}
+};
 
