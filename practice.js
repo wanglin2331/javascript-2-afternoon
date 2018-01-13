@@ -15,7 +15,11 @@
 */
 
 //Code here
-
+var me={
+  name: "Lin Wang",
+  age: 34
+}
+alert(me.name);
 
 
 ////////// PROBLEM 2 //////////
@@ -26,7 +30,14 @@
 */
 
 //Code here
-
+var favoriteThings ={
+  band: "Linkin Park",
+  food: "Steak",
+  person: "XYZ",
+  book: "Sci-Fi",
+  movie: "Horror",
+  holiday: "Thanks Giving"
+}
 
 
 /*
@@ -34,7 +45,8 @@
 */
 
 //Code here
-
+favoriteThings.car="Audi";
+favoriteThings.brand="Dyson";
 
 
 /*
@@ -42,7 +54,8 @@
 */
 
 //Code here
-
+favoriteThings.food="Chicken Nuggets";
+favoriteThings.book="Harry Potter";
 
 
 ////////// PROBLEM 3 //////////
@@ -56,6 +69,13 @@
 */
 
 //Code here
+var backPack ={
+
+};
+var item="firstPocket";
+backPack["item"]="chapstick";
+
+backPack.color="black";
 
 
 
@@ -64,8 +84,8 @@
 */
 
 //Code here
-
-
+alert(backPack);
+console.log(backPack);
 
 /*
 You probably noticed that it just alerted [object Object].
